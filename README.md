@@ -63,6 +63,10 @@ WEATHER_API_KEY="yourApiKey"
 JWT_SECRET="your-secret-key"
 ```
 
+
+### To Create Tables in Database set this to true
+app.module.ts -> `synchronize: true`
+
 ### Development Guidelines
 
 - Use `const` by default. Use `let` only when you need to reassign the variable.

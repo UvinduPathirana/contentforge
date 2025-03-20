@@ -28,7 +28,7 @@ import { WeatherapiModule } from './weatherapi/weatherapi.module';
         password: configService.get('DB_PASSWORD'),
         database: configService.get('DB_NAME'),
         autoLoadEntities: true,
-        synchronize: false,
+        synchronize: true,
       }),
       inject: [ConfigService],
     }),
